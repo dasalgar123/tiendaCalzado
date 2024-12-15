@@ -1,0 +1,178 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color:pink;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Sección de "Quiénes Somos" */
+main {
+    padding: 20px;
+}
+
+#about-us {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-us h2 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#about-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Sección de Misión y Visión */
+#mission-vision {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#mission-vision h2 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#mission-vision div {
+    margin-bottom: 20px;
+}
+
+#mission-vision h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#mission-vision p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Sección de Equipo */
+#team {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#team h2 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#team p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.team-member {
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.team-member strong {
+    font-weight: bold;
+}
+
+/* Sección de Valores */
+#values {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#values h2 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#values li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+#values li strong {
+    color: #007bff;
+}
+
+/* Pie de página */
+footer {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+/* Header */
+header { background-color: pink; color: red; text-align: center; padding: 30px 0;}
+header h1 { margin: 0; font-size: 2.5em; font-weight: bold; color: #b30047;}
+
+/* Navigation */
+nav { background-color: pink; color: red; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; margin-top: 10px;}
+nav ul li { margin: 0 15px;}
+nav ul li a { color:  #b30047; text-decoration: none; font-size: 1.1em; padding: 10px; display: inline-block;}
+nav ul li a:hover {
+    background-color: white; border-radius: 5px; border: 2px solid pink; color: #b30047;}
+img { width: 200px; height: 200px; border-radius: 8px; object-fit: cover;}

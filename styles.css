@@ -1,0 +1,67 @@
+/* General Styles */
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4;}
+
+/* Header */
+header { background-color: pink; color: red; text-align: center; padding: 30px 0;}
+header h1 { margin: 0; font-size: 2.5em; font-weight: bold; color: #b30047;}
+
+/* Navigation */
+nav { background-color: pink; color: red; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+nav ul { list-style: none; padding: 0; margin: 0; display: flex; justify-content: center; margin-top: 10px;}
+nav ul li { margin: 0 15px;}
+nav ul li a { color:  #b30047; text-decoration: none; font-size: 1.1em; padding: 10px; display: inline-block;}
+nav ul li a:hover {
+    background-color: white; border-radius: 5px; border: 2px solid pink; color: #b30047;}
+
+/* Main Section */
+main { max-width: 1200px; margin: 0 auto;}
+section { margin-bottom: 40px;}
+h2 { text-align: center; color: #007bff; margin-bottom: 20px;}
+.grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 10px;}
+.producto { background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; 
+    text-align: center; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); padding: 15px; }
+.producto img { max-width: 100%; height: auto; border-radius: 5px;}
+.producto h3 { font-size: 18px; margin: 10px 0; color: #333;}
+.producto p { font-size: 14px; color: #666;}
+.producto:hover { box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); transform: scale(1.02);
+    transition: all 0.3s ease-in-out;}
+/* Main carousel */
+.carousel-container { display: flex; align-items: center; justify-content: center;
+    margin: 20px 0; position: relative;}
+.carousel { display: flex; overflow-x: auto; scroll-snap-type: x mandatory;
+    gap: 10px; max-width: 80%; padding: 10px;}
+.carousel-item { flex: 0 0 auto; width: 100px; height: 100px; object-fit: cover;
+    border: 2px solid transparent; border-radius: 5px; cursor: pointer;
+    scroll-snap-align: center; transition: transform 0.3s, border 0.3s;}
+.carousel-item:hover { transform: scale(1.1); border-color: #007bff; }
+.carousel-btn { background-color: #007bff; color: #fff; border: none;
+    border-radius: 50%; width: 40px; height: 40px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center; font-size: 20px;
+    position: absolute; top: 50%; transform: translateY(-50%); z-index: 1;}
+.prev-btn { left: 10px;}
+.next-btn { right: 10px;}
+.selected-image { text-align: center; margin-top: 20px;}
+.selected-image img { width: 300px; height: auto; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);}
+.selected-image h3 { margin: 10px 0; color: #333;}
+.selected-image p { color: #666;}
+
+
+
+
+/* Footer */
+footer { background-color: pink; color:black; text-align: center; padding: 20px 0; position: relative; width: 100%;}
+footer p { margin: 0; font-size: 1em;}
+footer a { color: #b30047; text-decoration: none; font-size: 1.1em; display: block; margin-top: 5px;}
+footer a:hover { color: white; border:  2px solid pink;/* Hover effect color */}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+.product { width: calc(50% - 40px); /* 2 items per row */}
+footer { grid-template-columns: 1fr; /* Stack footer links vertically */}}
+
+@media screen and (max-width: 480px) {
+.product { width: 100%; margin: 0 0 20px;}
+footer { grid-template-columns: 1fr; }}
+
+/* Image Size */
+img { width: 200px; height: 200px; border-radius: 8px; object-fit: cover;}

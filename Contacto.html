@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula tu archivo CSS si lo tienes -->
+    <link rel="stylesheet" href="Contacto.css"> <!-- Vincula tu archivo CSS si lo tienes -->
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <img src="./tienda victual la mona.png" alt="">
+        <h3>Calidad y Confiabilidad Con Mejor Calidad Con Malastesa</h3>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="Inicio.html"><h3>Inicio</h3></a></li>
+            <li><a href="Deportivo.html"><h3>Deportivo</h3></a></li>
+            <li><a href="Formal.html"><h3>Formal</h3></a></li>
+            <li><a href="Casual.html"><h3>Casual</h3></a></li>
+            <li><a href="Contacto.html"><h3>Contacto</h3></a></li>
+            <li><a href="QuienesSomos.html"><h3>Quienes Somos</h3></a></li>
+        </ul>
+    </nav>
+
+    <section id="contact-form">
+        <h2>Formulario de Contacto</h2>
+        <form action="submit_form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="social-media">
+        <h2>Nuestras Redes Sociales</h2>
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+    </section>
+
+     <!-- Footer -->
+     <footer>
+        <div><p>&copy; 2024 Tienda Virtual de Calzado. Todos los derechos reservados.</p></div>
+        <div><a href="mailto:contacto@tiendacalzado.com">Email: contacto@tiendacalzado.com</a></div>
+        <div><a href="https://wa.me/1234567890" target="_blank">WhatsApp: 3216798086</a></div>
+        <div><a href="tel:+1234567890">Teléfono: 3216798086</a></div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
